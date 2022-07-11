@@ -1,0 +1,106 @@
+---
+  title: "Curriculum Vitae"
+---
+***
+
+# <i class="fa fa-file"></i>   Recent Conferences
+
+* __SFB960 Conference RNP Dynamics, Regensburg, 2022 - selected talk__
+* Microsymposium on RNA Biology, Vienna, 2022
+* 73rd Mosbacher Kolloquium, Mosbach, 2022
+* EMBL PhD Symposium, online, 2021
+* __13th GfE School - Stem cells, development, and regeneration, online, 2021 - selected talk__
+* AbGradE, online, 2021
+* RED, online, 2021
+* __EMBO Sectoral meeting on RNA and Structural Biology, online, 2020 - Flash Talk__
+
+# <i class="fa fa-graduation-cap"></i>   Education 
+
+2019-2022
+
+PhD Molecular Medicine  
+Hannover Biomedical Research School
+Hannover Medical School
+
+2017-2019 
+
+Biochemistry Master   
+Life Sciences Center 
+Vilnius University 
+Vilnius
+
+2018-2019 
+
+M2 Biothérapies Tissulaires, Cellulaires, Géniques
+Faculté de Médecine  
+L'Université Paris-Est Créteil
+Paris
+
+2012-2017 
+
+Biochemistry Bachelor  
+Faculty of Chemistry, 
+Vilnius University 
+Vilnius
+
+2012-2017 
+
+IB Diploma,   
+International Baccalaureate,  
+Vilnius Lyceum, 
+Vilnius
+
+#  <i class="fa fa-flask"></i>   Research experience
+
+2019-2022
+
+PhD, Hannover Medical School, Institute of Cell Biochemistry  
+Research project on Rbfox1 domains in Prof. Dr. Halyna Shcherbata's laboratory.
+
+2016-2019
+
+Internship, VU Institute of Biotechnology   
+Recombinant protein production, DNA cloning with RE, E. coli 
+transformation, optimization of growth conditions, protein 
+purification using Ni-Chelating Sepharose column. Thermal 
+shift assay, isothermal calorimetry titration. 
+
+##  <i class="fa fa-briefcase"></i>   Work Experience
+
+2017-2018 
+
+Associate, Western Union   
+Real Time Risk Assessment, teamwork, customer-centric service, multicultural environment, corporate experience, ethical mindfulness and sensitivity, global security and prevention. 
+
+
+
+# <i class="fa fa-cogs"></i>   Competences
+
+* Biochemistry
+* Molecular biology
+* S2 cell culture
+* Fly Genetics
+* R Studio
+* Basic LaTeX
+* Teaching
+
+# <i class="fa fa-language"></i>   Languages  
+
+* English - very good
+* Lithuanian - native
+* French - moderate
+* German - beginner
+* Russian - beginner
+* Japanese - beginner
+
+# <i class="fa fa-rocket"></i>   Interests  
+
+* Women's education
+* Science communication 
+* Space, Exobiology
+* Lindyhop, Salsa
+* Choir singing 
+* Camping
+* Mountain hiking
+* Kayaking
+* Science fiction
