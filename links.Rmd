@@ -1,0 +1,28 @@
+---
+title: "Useful Links for PhD Students (and others)"
+---
+***
+
+# Website
+   
+<img src="files/fly.png" align="left"> Yihui Xie's {blogdown} - [a manual on creating websites with Rmarkdown](https://bookdown.org/yihui/blogdown/get-started.html). My go-to bible on all things for my website.
+  
+# Poster
+  
+<img src="files/fly.png" align="left"> Brent Thorne's {posterdown} [wiki](https://github.com/brentthorne/posterdown/wiki/posterdown_betterport) - create your poster in 2 seconds. Obviously, first it will take 2 weeks to figure out each part if you are new to R, but then - 2 seconds and you're done! Plus, this allows to easily transition from a poster to a manuscript.
+  
+<img src="files/fly.png" align="left"> Mike Morrison's pitch on [#betterposter](https://www.youtube.com/watch?v=1RwJbhkCA58). Particularly touchy subject starts at [6:03](https://youtu.be/1RwJbhkCA58?t=363) - the portrayal of a standard night-before-the-deadline poster frenzy. More insights on poster design (with references!) in [part 2](https://www.youtube.com/watch?v=SYk29tnxASs).  
+  
+# Fly links
+
+<img src="files/fly.png" align="left"> Find your primers (or any sequence, basically) in fly genome by [BLAST](https://flybase.org/blast/)ing them.  
+  
+<img src="files/fly.png" align="left"> Get your flies at [Bloomington Drosophila Stock Center](https://bdsc.indiana.edu/)!  
+  
+<img src="files/fly.png" align="left"> Needs some inexpensive Abs? Check out [Developmental Studies Hybridoma Bank](https://dshb.biology.uiowa.edu/) stocks.  
+  
+# Statistical analysis  
+  
+<img src="files/fly.png" align="left"> I often forget [which statistical test](https://inspect-lb.org/statistical-tests/) to use.  
+  
+<img src="files/fly.png" align="left"> Here is a way to [add P-values and Significance Levels to ggplots](https://www.r-bloggers.com/2017/06/add-p-values-and-significance-levels-to-ggplots/).  

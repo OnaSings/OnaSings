@@ -1,0 +1,31 @@
+---
+  title: "How To Do Simple Statistics"
+---
+
+One thing I could never really figure out until I was midway through my PhD was how to properly do statistics on my data. Here I am sharing some tips that I found useful to follow. Disclaimer: this workflow by any means is not extensive, I wrote it for myself, to gather the knowledge I already felt I have. This is meant to help undergraduate level bioscience students to wrangle different tests and statistics. If you have good suggestions on what to add to this page, please [contact me](mailto:<singh.marija@gmail.com>).
+  
+# What are you counting?  
+  
+<img src="files/fly.png" align="left"> What data is your dependent variable? Categorical (Nominal vs Ordinal?) or Numerical (Discrete vs Continuous)?   
+<img src="files/fly.png" align="left"> Let us choose numerical. It can be a continuous (ratio) data, such age, height, weight, where you can have parts of a whole, such as 0.5 cm. Or it can be a discrete count, such as a number of somatic cells in a stem cell niche, or a number of students attending professor's yearly seminar. You can't possibly have 1/2 of a student.  
+<img src="files/fly.png" align="left"> Let us choose discrete data, such as number of cells. What is your distribution? If your sample size is large enough (n $\gt$ 30), you can [assume normal distribution](http://www.sthda.com/english/wiki/normality-test-in-r#case-of-large-sample-sizes). If not, plot your data on a QQplot and see if it is bell-shaped.  
+<img src="files/fly.png" align="left"> You might want to throw in a normality test such as Shapiro-Wilk’s test. Important!: Shapiro-Wilk’s test **assumes distribution is normal** for p $\gt$ 0.05. Meaning, if you get a p $\leqslant$ 0.05, your data is **not distributed normally**.  
+<img src="files/fly.png" align="left"> In case of a non-parametric 
+```{r echo=FALSE}
+library("DiagrammeR")
+DiagrammeR::grViz("digraph {
+  graph [layout = dot, rankdir = TB]
+  
+  node [shape = rectangle]        
+  rec1 [label = 'Step 1. Numerical vs Categorical DV?']
+  rec2 [label = 'Step 2. Discrete or Continuous?']
+  rec3 [label =  'Step 3. Distribution? How many means?']
+  rec4 [label = 'Step 4. The statistical significance test']
+  
+  # edge definitions with the node IDs
+  rec1 -> rec2 -> rec3 -> rec4
+  }",
+  height = 500)
+```
+#   
+  

@@ -1,0 +1,29 @@
+---
+title: "Ona Marija Singh"
+---
+ *[On-nah Mah-re-ya Sing]*
+ 
+
+
+Hey there! Thanks for stopping by!
+
+I am a 29 year old biochemist. I live and work in Hannover, Germany.
+
+Currently, I am doing a PhD in Molecular Medicine. The coolest part about my research? I work on a protein which can form **membrane-less liquid organelles**! Why is that cool, you might ask. Well, it turns out that phase separation can govern how proteins localize and function in our bodies under normal and especially under stressful conditions. It could even explain **how life began on earth**! (Hansma, 2017). But to know more about membrane-less organelles and Rbfox1 in particular, head over to my **Projects**.
+
+I use fruit flies <img src="files/fly.png"> as a model. Did you know that fruit flies are actually very similar to us - nearly "75% of human disease-causing genes" are thought to exist in this small tiny animal as well (Pandey & Nichols, 2011).
+
+If you would like to connect with me, write me an email or find me on Twitter and LinkedIn. I always happy to help and to give my 2 cents on science, flies, PhD, leadership, impostor syndrome, and other subjects.
+
+P.S. Met me in a conference recently? [Do you remember how many flies were on my poster](game.html)?
+
+<p align="center">
+<img src="files/marija3.png" align width=50%>
+</p>
+
+
+***
+References
+
+Hansma, H. G. (2017). Better than Membranes at the Origin of Life? Life (Basel, Switzerland), 7(2). https://doi.org/10.3390/life7020028
+Pandey, Udai Bhan, and Charles D. Nichols. ‘Human Disease Models in Drosophila Melanogaster and the Role of the Fly in Therapeutic Drug Discovery’. Pharmacological Reviews 63, no. 2 (June 2011): 411–36. https://doi.org/10.1124/pr.110.003293
