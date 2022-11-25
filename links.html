@@ -13,10 +13,10 @@
 
 <title>Useful Links for PhD Students (and others)</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -256,10 +257,13 @@ $(document).ready(function () {
 <li>
   <a href="links.html">Useful Links</a>
 </li>
+<li>
+  <a href="game.html">Fruit Fly Game</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:&lt;ona.m.singh@stud.mh-hannover.de&gt;">
+  <a href="mailto:&lt;singh.marija@gmail.com&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -291,31 +295,61 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Useful Links for PhD Students (and others)</h1>
+<h1 class="title toc-ignore">Useful Links for PhD Students (and
+others)</h1>
 
 </div>
 
 
 <hr />
+<div id="fly-stuff" class="section level1">
+<h1>Fly Stuff</h1>
+<p><img src="files/fly.png" align="left"> Fantastic resource for <a
+href="https://wiki.flybase.org/wiki/FlyBase:New_to_Flies">New to
+Flies</a> people. Especially recommended <a
+href="https://marksteinlab.org/dwu/">‘Drosophila Workers
+Unite!’</a>.</p>
+<p><img src="files/fly.png" align="left"> Find your primers (or any
+sequence, basically) in fly genome by <a
+href="https://flybase.org/blast/">BLAST</a>ing them.</p>
+<p><img src="files/fly.png" align="left"> Get your flies at <a
+href="https://bdsc.indiana.edu/">Bloomington Drosophila Stock
+Center</a>!</p>
+<p><img src="files/fly.png" align="left"> Needs some inexpensive Abs?
+Check out <a href="https://dshb.biology.uiowa.edu/">Developmental
+Studies Hybridoma Bank</a> stocks.</p>
+</div>
 <div id="website" class="section level1">
 <h1>Website</h1>
-<p><img src="files/fly.png" align="left"> Yihui Xie’s {blogdown} - <a href="https://bookdown.org/yihui/blogdown/get-started.html">a manual on creating websites with Rmarkdown</a>. My go-to bible on all things for my website.</p>
+<p><img src="files/fly.png" align="left"> Yihui Xie’s {blogdown} - <a
+href="https://bookdown.org/yihui/blogdown/get-started.html">a manual on
+creating websites with Rmarkdown</a>. My go-to bible on all things for
+my website.</p>
 </div>
 <div id="poster" class="section level1">
 <h1>Poster</h1>
-<p><img src="files/fly.png" align="left"> Brent Thorne’s {posterdown} <a href="https://github.com/brentthorne/posterdown/wiki/posterdown_betterport">wiki</a> - create your poster in 2 seconds. Obviously, first it will take 2 weeks to figure out each part if you are new to R, but then - 2 seconds and you’re done! Plus, this allows to easily transition from a poster to a manuscript.</p>
-<p><img src="files/fly.png" align="left"> Mike Morrison’s pitch on <a href="https://www.youtube.com/watch?v=1RwJbhkCA58">#betterposter</a>. Particularly touchy subject starts at <a href="https://youtu.be/1RwJbhkCA58?t=363">6:03</a> - the portrayal of a standard night-before-the-deadline poster frenzy. More insights on poster design (with references!) in <a href="https://www.youtube.com/watch?v=SYk29tnxASs">part 2</a>.</p>
-</div>
-<div id="fly-links" class="section level1">
-<h1>Fly links</h1>
-<p><img src="files/fly.png" align="left"> Find your primers (or any sequence, basically) in fly genome by <a href="https://flybase.org/blast/">BLAST</a>ing them.</p>
-<p><img src="files/fly.png" align="left"> Get your flies at <a href="https://bdsc.indiana.edu/">Bloomington Drosophila Stock Center</a>!</p>
-<p><img src="files/fly.png" align="left"> Needs some inexpensive Abs? Check out <a href="https://dshb.biology.uiowa.edu/">Developmental Studies Hybridoma Bank</a> stocks.</p>
+<p><img src="files/fly.png" align="left"> Brent Thorne’s {posterdown} <a
+href="https://github.com/brentthorne/posterdown/wiki/posterdown_betterport">wiki</a>
+- create your poster in 2 seconds. Obviously, first it will take 2 weeks
+to figure out each part if you are new to R, but then - 2 seconds and
+you’re done! Plus, this allows to easily transition from a poster to a
+manuscript.</p>
+<p><img src="files/fly.png" align="left"> Mike Morrison’s pitch on <a
+href="https://www.youtube.com/watch?v=1RwJbhkCA58">#betterposter</a>.
+Particularly touchy subject starts at <a
+href="https://youtu.be/1RwJbhkCA58?t=363">6:03</a> - the portrayal of a
+standard night-before-the-deadline poster frenzy. More insights on
+poster design (with references!) in <a
+href="https://www.youtube.com/watch?v=SYk29tnxASs">part 2</a>.</p>
 </div>
 <div id="statistical-analysis" class="section level1">
 <h1>Statistical analysis</h1>
-<p><img src="files/fly.png" align="left"> I often forget <a href="https://inspect-lb.org/statistical-tests/">which statistical test</a> to use.</p>
-<p><img src="files/fly.png" align="left"> Here is a way to <a href="https://www.r-bloggers.com/2017/06/add-p-values-and-significance-levels-to-ggplots/">add P-values and Significance Levels to ggplots</a>.</p>
+<p><img src="files/fly.png" align="left"> I often forget <a
+href="https://inspect-lb.org/statistical-tests/">which statistical
+test</a> to use.</p>
+<p><img src="files/fly.png" align="left"> Here is a way to <a
+href="https://www.r-bloggers.com/2017/06/add-p-values-and-significance-levels-to-ggplots/">add
+P-values and Significance Levels to ggplots</a>.</p>
 </div>
 
 
