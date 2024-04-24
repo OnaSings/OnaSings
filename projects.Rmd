@@ -2,7 +2,7 @@
 title: "Low Complexity Domains in Fruit Fly Rbfox1"
 ---
 ***    
-I am interested in studying a *Drosophila* protein Rbfox1. It is homologous to human Rbfoxes, the deregulation of which has been associated with multiple different diseases, such as autism, obesity, diabetes, congenital heart defects, ALS, and spinocerebelar ataxia.
+I am interested in studying a *Drosophila* protein Rbfox1. It is homologous to human Rbfoxes, the deregulation of which has been associated with multiple different diseases, such as autism, obesity, diabetes, congenital heart defects, ALS, and spinocerebellar ataxia.
 
 Just look at these awesome flies I work with (their eyes glow green and red due to Green Fluorescent Protein (GFP) and Red Fluorescent Protein (RFP), used as markers to determine which fly has a mutated gene):
 

@@ -2,10 +2,13 @@
 title: "Ona Marija Kalesnykaitė"
 ---
  *[On-nah Mah-ree-yah Kah-less-nee-kai-teh]*
- 
 
+:::::: {style="display: flex; column-gap: 20px;" }
 
+::: {}
+<style>body {text-align: justify}</style>
 Hey there! Thanks for stopping by!
+
 
 I am a biochemist from Lithuania, the country of amber and pink soup. I live and work in Bar Harbor, United States.
 
@@ -13,14 +16,22 @@ Currently, I am doing a PhD in Molecular Medicine at the Hannover Biomedical Res
 
 I use fruit flies <img src="files/fly.png"> as a model. Did you know that fruit flies are actually very similar to us - nearly "75% of human disease-causing genes" are thought to exist in this small tiny animal as well (Pandey & Nichols, 2011).
 
-If you would like to connect with me, write me an email or find me on LinkedIn. I always happy to help and to give my 2 cents on science, flies, PhD and leadership.
+If you would like to connect with me, write me an email or find me on LinkedIn. I always happy to help and to give my 2 cents on science, flies and PhD.
 
 P.S. Met me in a conference recently? [Do you remember how many flies were on my poster](game.html)?
+:::
 
-<p align="center">
-<img src="files/marija3.png" align width=50%>
-</p>
+::: {}
+\   \   \   \   
+\   
+\   
+:::
 
+::: {}
+<img src="files/MDIBL.jpg">
+:::
+
+:::::: 
 
 ***
 References
