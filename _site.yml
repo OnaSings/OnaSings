@@ -1,9 +1,7 @@
 name: "OnaSings"
 navbar:
-  title: "Ona Marija Singh"
+  title: "Ona Marija Kalesnykaite"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Projects"
       href: projects.html
     - text: "CV"
@@ -14,15 +12,13 @@ navbar:
       href: game.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:<singh.marija@gmail.com>
+      href: mailto:<onamkal@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/OnaSings
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/ona-marija-singh-96361b38
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/MarijaSingh
+      href: https://www.linkedin.com/in/onamarijakal/
 output:
   html_document:
-    theme: darkly
+    theme: journal
     includes:
       in_header: header.html    

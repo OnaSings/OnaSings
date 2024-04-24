@@ -4,7 +4,7 @@
 
 # How many fruit flies are on my poster?
 
-Answer: 6 <img src="files/fly.png">
+Answer: 7 <img src="files/fly.png">
 
 You, I like you! You have got yourself some keen eye.
 
