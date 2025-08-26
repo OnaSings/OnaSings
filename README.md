@@ -12,9 +12,7 @@ Welcome to my GitHub profile!
 
 ## About Me
 
-I am a biochemist and data scientist from Lithuania.  
-I completed my PhD in Molecular Medicine at the Hannover Biomedical Research School (Germany), with research experience at MDI Biological Laboratory (USA).  
-My work focused on phase separation and membrane-less organelles, using fruit flies as a model system.
+I am a biochemist and data scientist from Lithuania. I completed my PhD in Molecular Medicine at the Hannover Biomedical Research School (Germany), with research experience at MDI Biological Laboratory (USA). My work focused on phase separation and membrane-less organelles, using fruit flies as a model system.
 
 Currently, I am expanding my skills in Data Science & AI at Turing College.
 
