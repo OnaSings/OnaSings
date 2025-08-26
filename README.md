@@ -8,7 +8,7 @@
 
 Welcome to my GitHub profile!  
 
-[My background, research, and interests in biochemistry, fruit fly genetics, and data science.](https://onasings.github.io/OnaSings/).
+[Check out my background, research, and interests in biochemistry, fruit fly genetics, and data science.](https://onasings.github.io/OnaSings/)
 
 ## About Me
 
