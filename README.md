@@ -2,15 +2,13 @@
 
 <!--
 **OnaSings/OnaSings** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-- 👯 I’m looking to collaborate on ...
 -->
 
 # I am Ona
 
-Welcome to my personal website!  
-Here you can learn about my background, research, and interests in biochemistry, molecular medicine, fruit fly genetics, and data science.
+Welcome to my GitHub profile!  
+
+[My background, research, and interests in biochemistry, fruit fly genetics, and data science.](https://onasings.github.io/OnaSings/).
 
 ## About Me
 
@@ -31,6 +29,6 @@ Fun fact: I can find a four leaf clover 🍀 in any (medium small sized) meadow.
 ---
 
 Thank you for visiting!  
-Feel free to explore the site and reach out if you have questions or want to connect.
+Feel free to explore [my website](https://onasings.github.io/OnaSings/) and reach out if you have questions or want to connect.
 
 
