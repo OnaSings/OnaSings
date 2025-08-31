@@ -6,7 +6,7 @@
 
 # I am Ona
 
-Welcome to my GitHub profile!  
+Welcome to my GitHub profile!
 
 [Check out my background, research, and interests in biochemistry, fruit fly genetics, and data science.](https://onasings.github.io/OnaSings/)
 
@@ -16,7 +16,9 @@ I am a biochemist and data scientist from Lithuania. I completed my PhD in Molec
 
 Currently, I am expanding my skills in Data Science & AI at Turing College.
 
-Fun fact: I can find a four leaf clover 🍀 in any (medium small sized) meadow.
+In my free time, I love to hike, bike, kayak, boulder, dance, and sing in a choir (ergo "OnaSings").
+
+Fun fact: I can find a four leaf clover 🍀 in any (medium small-sized) meadow.
 
 ## Contact
 
